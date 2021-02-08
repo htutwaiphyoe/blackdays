@@ -1,0 +1,27 @@
+@import "../../sass/_variables.scss";
+
+.Navigation {
+    width: 100%;
+    background: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & h1 {
+        font-size: 2rem;
+    }
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        & li {
+            padding: 2rem 2rem;
+        }
+    }
+    & a {
+        color: $foreground;
+        font-size: 1.6rem;
+        text-decoration: none;
+    }
+}
