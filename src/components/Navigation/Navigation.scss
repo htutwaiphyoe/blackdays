@@ -9,6 +9,10 @@
     & h1 {
         font-size: 2rem;
     }
+    & h1,
+    a {
+        color: $background;
+    }
     & ul {
         display: flex;
         justify-content: center;
@@ -20,7 +24,6 @@
         }
     }
     & a {
-        color: $foreground;
         font-size: 1.6rem;
         text-decoration: none;
     }
