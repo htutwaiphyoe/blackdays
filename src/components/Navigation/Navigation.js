@@ -15,7 +15,7 @@ const Navigation = (props) => {
                 </li>
                 <li>
                     <a href="/month/1/day/9">
-                        HISTORY <i class="fas fa-caret-down"></i>
+                        HISTORY <i className="fas fa-caret-down"></i>
                     </a>
                 </li>
                 <li>
