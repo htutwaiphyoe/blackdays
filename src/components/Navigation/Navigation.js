@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Navigation.scss";
 
 const Navigation = (props) => {
@@ -6,20 +8,24 @@ const Navigation = (props) => {
             <h1>Black Days</h1>
             <ul>
                 <li>
-                    <a href="#" title="Home">
+                    <Link to="/" exact title="Home">
                         HOME
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <Link to="/about" exact>
+                        ABOUT
+                    </Link>
                 </li>
                 <li>
-                    <a href="/month/1/day/9">
-                        HISTORY <i className="fas fa-caret-down"></i>
-                    </a>
+                    <Link to="/history" exact>
+                        HISTORY
+                    </Link>
                 </li>
                 <li>
-                    <a href="#">CONTACT US</a>
+                    <Link to="/contact" exact>
+                        CONTACT
+                    </Link>
                 </li>
             </ul>
         </nav>

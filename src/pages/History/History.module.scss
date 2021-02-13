@@ -1,0 +1,30 @@
+@import "../../sass/variables";
+.History {
+    width: 100%;
+    padding: 2rem;
+}
+.Month {
+    & h1 {
+        font-size: 3rem;
+    }
+    & ul {
+        list-style: none;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(6, 1fr);
+
+        & li {
+            text-align: center;
+
+            & a {
+                color: $background;
+                padding: 1rem 0;
+                width: 100%;
+                display: inline-block;
+                font-size: 1.7rem;
+                background-color: $foreground;
+                text-decoration: none;
+            }
+        }
+    }
+}

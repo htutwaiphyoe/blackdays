@@ -7,3 +7,4 @@
 -   React
 -   Redux
 -   React-Router
+- Firebase
