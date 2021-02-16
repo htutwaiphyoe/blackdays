@@ -1,0 +1,13 @@
+.Footer {
+    width: 100%;
+    padding: 5rem 0 0 0;
+
+    & p {
+        text-align: center;
+        font-size: 1.6rem;
+
+        & a {
+            color: #ddd;
+        }
+    }
+}

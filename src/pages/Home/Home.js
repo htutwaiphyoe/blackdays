@@ -2,15 +2,15 @@ import classes from "./Home.module.scss";
 
 const Home = (props) => {
     return (
-        <section className={classes.Home}>
-            <div className="major">
-                <span className="date">February 1, 2021</span>
-                <h1>
+        <section className={classes.Home} id="Main">
+            <div className={classes.Home__Intro}>
+                <span className={classes.Home__Intro__Date}>February 1, 2021</span>
+                <h1 className={classes.Home__Intro__Heading}>
                     About
                     <br />
                     brief history
                 </h1>
-                <p>
+                <p className={classes.Home__Paragraph}>
                     This webiste is about black history from 1st February to Now.
                     <br />
                     This'll show you all historic events that happened during that time.
@@ -18,10 +18,13 @@ const Home = (props) => {
                     Vive la révolution
                 </p>
             </div>
-            <figure className="">
-                <img src="images/pic01.jpg" alt="" />
+            <figure className={classes.Home__Image}>
+                <img
+                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                    alt="hero"
+                />
             </figure>
-            <p>
+            <p className={classes.Home__Paragraph}>
                 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                 Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem
                 diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id
@@ -32,7 +35,7 @@ const Home = (props) => {
                 commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet
                 nullam.
             </p>
-            <p>
+            <p className={classes.Home__Paragraph}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum
                 facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
                 inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam

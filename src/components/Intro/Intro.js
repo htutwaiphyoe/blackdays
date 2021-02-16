@@ -1,6 +1,9 @@
 import classes from "./Intro.module.scss";
 
 const Intro = (props) => {
+    const onContinueClick = (e) => {
+        document.getElementById("Main").scrollIntoView();
+    };
     return (
         <header className={classes.Intro}>
             <h1>
@@ -12,9 +15,9 @@ const Intro = (props) => {
                 <br />
                 This is what our generation Y and Z did against Military Coup.
             </p>
-            <a href="#navigation">
+            <span onClick={onContinueClick}>
                 <ion-icon name="arrow-down-circle-outline"></ion-icon>
-            </a>
+            </span>
         </header>
     );
 };

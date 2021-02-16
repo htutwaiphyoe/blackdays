@@ -19,7 +19,8 @@
         font-style: italic;
         margin-bottom: 2.5rem;
     }
-    & a {
+    & span {
+        cursor: pointer;
         & ion-icon {
             font-size: 8rem;
             color: #fff;

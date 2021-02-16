@@ -1,5 +1,56 @@
 @import "../../sass/_variables.scss";
+
+%line {
+    content: "";
+    position: absolute;
+    top: 50%;
+
+    height: 2px;
+    background-color: #ddd;
+    width: calc(50% - 8rem);
+}
 .Home {
-    background-color: $background;
+    background-color: $foreground;
     color: $foreground-light;
+    padding: 7rem 7rem 2rem;
+    &__Intro {
+        text-align: center;
+        margin-bottom: 5rem;
+        &__Date {
+            font-size: 1.8rem;
+            margin-bottom: 4rem;
+            width: 100%;
+            display: block;
+            position: relative;
+
+            &::before {
+                @extend %line;
+                left: 0;
+            }
+            &::after {
+                @extend %line;
+                right: 0;
+            }
+        }
+
+        &__Heading {
+            font-size: 6.5rem;
+            text-transform: uppercase;
+            line-height: 1.1;
+            color: #000;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+        }
+    }
+    &__Paragraph {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+    }
+    &__Image {
+        width: 100%;
+        margin-bottom: 5rem;
+        & img {
+            width: 100%;
+        }
+    }
 }
