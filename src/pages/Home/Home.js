@@ -4,7 +4,6 @@ const Home = (props) => {
     return (
         <section className={classes.Home} id="Main">
             <div className={classes.Home__Intro}>
-                <span className={classes.Home__Intro__Date}>February 1, 2021</span>
                 <h1 className={classes.Home__Intro__Heading}>
                     About
                     <br />

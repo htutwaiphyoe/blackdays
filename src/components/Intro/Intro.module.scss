@@ -1,8 +1,9 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
 .Intro {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
     flex-direction: column;
     min-height: 100vh;
     text-align: center;
@@ -24,14 +25,9 @@
         & ion-icon {
             font-size: 8rem;
             color: #fff;
-            transition: color 0.2s ease-in;
-
-            -webkit-transition: color 0.2s ease-in;
-            -moz-transition: color 0.2s ease-in;
-            -ms-transition: color 0.2s ease-in;
-            -o-transition: color 0.2s ease-in;
+            @include transition;
             &:hover {
-                color: #a86878;
+                color: $color-hover;
             }
         }
     }

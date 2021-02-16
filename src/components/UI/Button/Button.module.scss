@@ -1,0 +1,21 @@
+@import "../../../sass/mixins";
+@import "../../../sass/variables";
+.Button {
+    width: 100%;
+    @include flexCenter;
+
+    & a {
+        padding: 1.5rem 3rem;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: 2px solid $foreground-light;
+        text-decoration: none;
+        color: $foreground-light;
+        @include transition;
+        &:hover {
+            color: $color-hover;
+            border: 2px solid $color-hover;
+        }
+    }
+}

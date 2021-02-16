@@ -6,8 +6,6 @@ import Day from "./Day/Day";
 import Month from "./Month/Month";
 import History from "./History/History";
 
-import "./App.css";
-
 const App = () => {
     return (
         <Router>

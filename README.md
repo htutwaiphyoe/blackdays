@@ -7,4 +7,5 @@
 -   React
 -   Redux
 -   React-Router
-- Firebase
+-   Firebase
+-   Scss

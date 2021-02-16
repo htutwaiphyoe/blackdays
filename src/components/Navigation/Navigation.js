@@ -14,7 +14,7 @@ const Navigation = (props) => {
                         exact
                         className={classes.Navigation__NavItem}
                     >
-                        WELCOME
+                        HOME PAGE
                     </NavLink>
                 </li>
                 <li>
@@ -34,7 +34,7 @@ const Navigation = (props) => {
                         activeClassName={classes.active}
                         className={classes.Navigation__NavItem}
                     >
-                        CONTACT
+                        CONTACT US
                     </NavLink>
                 </li>
             </ul>
