@@ -1,31 +1,84 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import "./Navigation.scss";
+import classes from "./Navigation.module.scss";
 
 const Navigation = (props) => {
     return (
-        <nav className="Navigation">
-            <h1>Black Days</h1>
+        <nav className={classes.Navigation}>
             <ul>
                 <li>
-                    <Link to="/" exact title="Home">
-                        HOME
-                    </Link>
+                    <NavLink
+                        to="/"
+                        title="Home"
+                        activeClassName={classes.active}
+                        exact
+                        className={classes.Navigation__NavItem}
+                    >
+                        WELCOME
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/about" exact>
-                        ABOUT
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/history" exact>
+                    <NavLink
+                        to="/history"
+                        exact
+                        activeClassName={classes.active}
+                        className={classes.Navigation__NavItem}
+                    >
                         HISTORY
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/contact" exact>
+                    <NavLink
+                        to="/contact"
+                        exact
+                        activeClassName={classes.active}
+                        className={classes.Navigation__NavItem}
+                    >
                         CONTACT
-                    </Link>
+                    </NavLink>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a
+                        href="/"
+                        title="Facebook"
+                        className={classes.Navigation__IconLink}
+                        target="_blank"
+                    >
+                        <ion-icon name="logo-facebook" title="Facebook"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/history"
+                        className={classes.Navigation__IconLink}
+                        target="_blank"
+                        title="Instagram"
+                    >
+                        <ion-icon name="logo-instagram" title="Instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="/about"
+                        className={classes.Navigation__IconLink}
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        <ion-icon name="logo-twitter" title="Twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="/contact"
+                        className={classes.Navigation__IconLink}
+                        target="_blank"
+                        title="Github"
+                    >
+                        <ion-icon name="logo-github" title="Github"></ion-icon>
+                    </a>
                 </li>
             </ul>
         </nav>

@@ -6,7 +6,7 @@ import "./Day.scss";
 const Day = (props) => {
     const [events, setEvents] = useState([]);
     const getEvents = async () => {
-        const response = await firebase.get("events.json");
+        const response = await firebase.get(`events.json?orderBy="day"equalTo=${13}`);
         let events = [];
         for (let i in response.data) {
             events.push({ id: i, ...response.data[i] });

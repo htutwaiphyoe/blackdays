@@ -1,0 +1,36 @@
+@import "../../sass/_variables.scss";
+@import "../../sass/mixins";
+.Navigation {
+    width: 100%;
+    margin-top: -6.5rem;
+    background: #5453563b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & ul {
+        @include flexCenter;
+        list-style: none;
+    }
+    & a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        padding: 2rem 2rem;
+
+        display: inline-block;
+        color: $background;
+
+        & ion-icon {
+            font-size: 2.5rem;
+            @include flexCenter;
+        }
+    }
+
+    &__IconLink {
+        padding: 1rem !important;
+    }
+}
+.active {
+    background-color: #fff;
+    color: $foreground-light !important;
+}

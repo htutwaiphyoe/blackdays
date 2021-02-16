@@ -1,0 +1,18 @@
+@keyframes introFadeIn {
+    0% {
+        transform: translateY(10rem);
+        -webkit-transform: translateY(10rem);
+        -moz-transform: translateY(10rem);
+        -ms-transform: translateY(10rem);
+        -o-transform: translateY(10rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        opacity: 1;
+    }
+}

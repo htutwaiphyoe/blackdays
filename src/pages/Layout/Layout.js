@@ -1,12 +1,14 @@
-import { Fragment } from "react";
-
+import Intro from "../../components/Intro/Intro";
 import Navigation from "../../components/Navigation/Navigation";
+
+import classes from "./Layout.module.scss";
 const Layout = (props) => {
     return (
-        <Fragment>
+        <main className={classes.Layout}>
+            <Intro />
             <Navigation />
-            <main>{props.children}</main>
-        </Fragment>
+            {props.children}
+        </main>
     );
 };
 
