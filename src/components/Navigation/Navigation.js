@@ -20,7 +20,6 @@ const Navigation = (props) => {
                 <li>
                     <NavLink
                         to="/history"
-                        exact
                         activeClassName={classes.active}
                         className={classes.Navigation__NavItem}
                     >

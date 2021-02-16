@@ -1,31 +1,75 @@
-import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
-import firebase from "../../api/firebase";
-import Event from "../../components/Event/Event";
-import "./Day.scss";
+import Button from "../../components/UI/Button/Button";
+import classes from "./Day.module.scss";
 const Day = (props) => {
-    const [events, setEvents] = useState([]);
-    const getEvents = async () => {
-        const response = await firebase.get(`events.json?orderBy="day"equalTo=${13}`);
-        let events = [];
-        for (let i in response.data) {
-            events.push({ id: i, ...response.data[i] });
-        }
-        setEvents(events);
-    };
-    useEffect(() => {
-        getEvents();
-    }, []);
+    const location = useLocation();
     return (
-        <section className="Day">
-            <h1 className="Day__heading">
-                Day 9<span className="Day__heading--date">9.2.2021</span>
-            </h1>
-            <div className="Day__Events">
-                {events.map((event) => (
-                    <Event photo={event.photo} description={event.description} key={event.id} />
-                ))}
-            </div>
+        <section className={classes.Day} id="Main">
+            <article>
+                <div className={classes.Day__Intro}>
+                    <span className={classes.Day__Intro__Date}>#Feb1Coup</span>
+                </div>
+                <figure className={classes.Day__Image}>
+                    <img
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                        alt="hero"
+                    />
+                </figure>
+                <p className={classes.Day__Paragraph}>
+                    On this Day, Military took country's power over the elected party. This'll show
+                    you all historic events that happened during that Day. Vive la révolution
+                </p>
+                <Button path={`${location.pathname}/asdfsdafsdf`}>Full story</Button>
+            </article>
+            <article>
+                <div className={classes.Day__Intro}>
+                    <span className={classes.Day__Intro__Date}>#Feb2Coup</span>
+                </div>
+                <figure className={classes.Day__Image}>
+                    <img
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                        alt="hero"
+                    />
+                </figure>
+                <p className={classes.Day__Paragraph}>
+                    On this Day, Military took country's power over the elected party. This'll show
+                    you all historic events that happened during that Day. Vive la révolution
+                </p>
+                <Button path={`${location.pathname}/asdfsdafsdf`}>Full story</Button>
+            </article>
+            <article>
+                <div className={classes.Day__Intro}>
+                    <span className={classes.Day__Intro__Date}>#Feb3Coup</span>
+                </div>
+                <figure className={classes.Day__Image}>
+                    <img
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                        alt="hero"
+                    />
+                </figure>
+                <p className={classes.Day__Paragraph}>
+                    On this Day, Military took country's power over the elected party. This'll show
+                    you all historic events that happened during that Day. Vive la révolution
+                </p>
+                <Button path={`${location.pathname}/asdfsdafsdf`}>Full story</Button>
+            </article>
+            <article>
+                <div className={classes.Day__Intro}>
+                    <span className={classes.Day__Intro__Date}>#Feb4Coup</span>
+                </div>
+                <figure className={classes.Day__Image}>
+                    <img
+                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                        alt="hero"
+                    />
+                </figure>
+                <p className={classes.Day__Paragraph}>
+                    On this Day, Military took country's power over the elected party. This'll show
+                    you all historic events that happened during that Day. Vive la révolution
+                </p>
+                <Button path={`${location.pathname}/asdfsdafsdf`}>Full story</Button>
+            </article>
         </section>
     );
 };

@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import Button from "../../components/UI/Button/Button";
 import classes from "./History.module.scss";

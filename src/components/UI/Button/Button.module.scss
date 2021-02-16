@@ -3,7 +3,7 @@
 .Button {
     width: 100%;
     @include flexCenter;
-
+    margin-bottom: 2rem;
     & a {
         padding: 1.5rem 3rem;
         font-size: 1.6rem;
