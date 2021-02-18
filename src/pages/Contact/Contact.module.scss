@@ -1,0 +1,44 @@
+@import "../../sass/_variables.scss";
+
+.Contact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $foreground;
+    color: $foreground-light;
+    &__Item {
+        padding: 5rem 5rem 0;
+        border: 2px solid #eee;
+        border-top: none;
+    }
+
+    &__Info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5rem;
+        border-bottom: 2px solid #eee;
+
+        & h3 {
+            font-size: 1.6rem;
+            text-transform: uppercase;
+        }
+
+        & p {
+            font-size: 1.6rem;
+        }
+
+        & ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            & a {
+                padding: 1rem;
+                color: $foreground-light;
+                & ion-icon {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

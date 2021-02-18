@@ -12,7 +12,7 @@ const Month = (props) => {
                     <h1 className={classes.Month__Intro__Heading}>
                         Day One
                         <br />
-                        of Month
+                        #Feb1Coup
                     </h1>
                 </div>
                 <figure className={classes.Month__Image}>
@@ -31,9 +31,9 @@ const Month = (props) => {
                 <div className={classes.Month__Intro}>
                     <span className={classes.Month__Intro__Date}>February 2, 2021</span>
                     <h1 className={classes.Month__Intro__Heading}>
-                        Day two
+                        Day One
                         <br />
-                        of Month
+                        #Feb1Coup
                     </h1>
                 </div>
                 <figure className={classes.Month__Image}>
@@ -52,9 +52,9 @@ const Month = (props) => {
                 <div className={classes.Month__Intro}>
                     <span className={classes.Month__Intro__Date}>February 3, 2021</span>
                     <h1 className={classes.Month__Intro__Heading}>
-                        Day three
+                        Day One
                         <br />
-                        of Month
+                        #Feb1Coup
                     </h1>
                 </div>
                 <figure className={classes.Month__Image}>
@@ -73,9 +73,9 @@ const Month = (props) => {
                 <div className={classes.Month__Intro}>
                     <span className={classes.Month__Intro__Date}>February 4, 2021</span>
                     <h1 className={classes.Month__Intro__Heading}>
-                        Day four
+                        Day One
                         <br />
-                        of Month
+                        #Feb1Coup
                     </h1>
                 </div>
                 <figure className={classes.Month__Image}>

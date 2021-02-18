@@ -8,7 +8,7 @@ const Day = (props) => {
         <section className={classes.Day} id="Main">
             <article>
                 <div className={classes.Day__Intro}>
-                    <span className={classes.Day__Intro__Date}>#Feb1Coup</span>
+                    <span className={classes.Day__Intro__Date}>1</span>
                 </div>
                 <figure className={classes.Day__Image}>
                     <img
@@ -24,7 +24,7 @@ const Day = (props) => {
             </article>
             <article>
                 <div className={classes.Day__Intro}>
-                    <span className={classes.Day__Intro__Date}>#Feb2Coup</span>
+                    <span className={classes.Day__Intro__Date}>2</span>
                 </div>
                 <figure className={classes.Day__Image}>
                     <img
@@ -40,7 +40,7 @@ const Day = (props) => {
             </article>
             <article>
                 <div className={classes.Day__Intro}>
-                    <span className={classes.Day__Intro__Date}>#Feb3Coup</span>
+                    <span className={classes.Day__Intro__Date}>3</span>
                 </div>
                 <figure className={classes.Day__Image}>
                     <img
@@ -56,7 +56,7 @@ const Day = (props) => {
             </article>
             <article>
                 <div className={classes.Day__Intro}>
-                    <span className={classes.Day__Intro__Date}>#Feb4Coup</span>
+                    <span className={classes.Day__Intro__Date}>4</span>
                 </div>
                 <figure className={classes.Day__Image}>
                     <img

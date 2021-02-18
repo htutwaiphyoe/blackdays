@@ -1,0 +1,20 @@
+.FormElement {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    & label {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+    }
+
+    & input,
+    textarea {
+        padding: 1rem;
+        border: 1px solid #ccc;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
