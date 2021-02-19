@@ -1,4 +1,5 @@
 @import "../../sass/_variables.scss";
+@import "../../sass/mixins";
 
 %line {
     content: "";
@@ -13,6 +14,12 @@
     background-color: $foreground;
     color: $foreground-light;
     padding: 7rem 7rem 2rem;
+    @include responsive(1024) {
+        padding: 7rem 4rem 2rem;
+    }
+    @include responsive(1024) {
+        padding: 7rem 1rem 2rem;
+    }
     &__Intro {
         text-align: center;
         margin-bottom: 4rem;
@@ -35,6 +42,9 @@
 
         &__Heading {
             font-size: 6.5rem;
+            @include responsive(768) {
+                font-size: 5rem;
+            }
             text-transform: uppercase;
             line-height: 1.1;
             color: #000;

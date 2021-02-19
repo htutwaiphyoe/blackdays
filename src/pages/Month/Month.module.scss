@@ -1,4 +1,5 @@
 @import "../../sass/_variables.scss";
+@import "../../sass/mixins";
 
 %line {
     content: "";
@@ -16,6 +17,9 @@
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    @include responsive(800) {
+        grid-template-columns: 1fr;
+    }
     &__Intro {
         margin-bottom: 4rem;
         &__Date {
@@ -59,5 +63,8 @@
     & article {
         border: 1px solid #eee;
         padding: 5rem 5rem 4rem;
+        @include responsive(576) {
+            padding: 5rem 1rem 4rem;
+        }
     }
 }

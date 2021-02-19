@@ -1,7 +1,17 @@
 @import "../../sass/animation";
+@import "../../sass/mixins";
 
 .Layout {
     animation: introFadeIn 0.5s ease-in;
     -webkit-animation: introFadeIn 0.5s ease-in;
-    padding: 0 10rem 5rem;
+    padding: 0 0 5rem;
+    width: calc(100% - 20rem);
+    margin: 0 auto;
+
+    @include responsive(1024) {
+        width: calc(100% - 5rem);
+    }
+    @include responsive(1024) {
+        width: 100%;
+    }
 }

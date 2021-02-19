@@ -19,7 +19,7 @@ const Home = (props) => {
             </div>
             <figure className={classes.Home__Image}>
                 <img
-                    src="https://scontent.xx.fbcdn.net/v/t1.15752-9/146550847_417038066020608_1685942869148427438_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=F5Yu3wFUsnAAX8OeXD7&_nc_ht=scontent.xx&oh=f8999461f704e84dcd15101411c522cd&oe=604F920A"
+                    src="https://scontent.xx.fbcdn.net/v/t1.0-9/152455575_843215836533306_762797039450712025_n.jpg?_nc_cat=111&ccb=3&_nc_sid=e3f864&_nc_ohc=WnNSRtao8usAX_76v3P&_nc_ht=scontent.xx&oh=aeef289d53846010006789a4f64c3b0d&oe=605651DE"
                     alt="hero"
                 />
             </figure>

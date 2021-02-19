@@ -1,3 +1,4 @@
+@import "../../sass/mixins";
 .Footer {
     width: 100%;
     padding: 5rem 0 0 0;
@@ -5,7 +6,9 @@
     & p {
         text-align: center;
         font-size: 1.6rem;
-
+        @include responsive(576) {
+            font-size: 1.4rem;
+        }
         & a {
             color: #ddd;
         }

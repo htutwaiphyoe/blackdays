@@ -15,7 +15,9 @@ const Contact = (props) => {
             <aside>
                 <div className={classes.Contact__Info}>
                     <h3>Address</h3>
-                    <p>1234 Somewhere Road #87257 Nashville</p>
+                    <p>
+                        1234 Somewhere Road <br /> #87257 Nashville
+                    </p>
                 </div>
                 <div className={classes.Contact__Info}>
                     <h3>phone</h3>

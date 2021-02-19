@@ -14,11 +14,19 @@
         line-height: 1;
         letter-spacing: 0.3rem;
         margin-bottom: 2.5rem;
+
+        @include responsive(768) {
+            font-size: 5rem;
+        }
     }
     & p {
         font-size: 2rem;
         font-style: italic;
         margin-bottom: 2.5rem;
+        @include responsive(768) {
+            font-size: 1.6rem;
+            padding: 0 3rem;
+        }
     }
     & span {
         cursor: pointer;
@@ -26,6 +34,9 @@
             font-size: 8rem;
             color: #fff;
             @include transition;
+            @include responsive(768) {
+                font-size: 7rem;
+            }
             &:hover {
                 color: $color-hover;
             }

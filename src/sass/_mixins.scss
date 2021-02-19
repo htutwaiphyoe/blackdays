@@ -11,3 +11,9 @@
     -ms-transition: all 0.15s ease-in;
     -o-transition: all 0.15s ease-in;
 }
+
+@mixin responsive($breakpoint) {
+    @media only screen and (max-width: $breakpoint * 1px) {
+        @content;
+    }
+}

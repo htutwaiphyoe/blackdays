@@ -7,6 +7,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include responsive(800) {
+        flex-direction: column;
+
+        & ul:nth-child(2) {
+            display: none;
+        }
+    }
 
     & ul {
         @include flexCenter;
@@ -16,7 +23,9 @@
         font-size: 1.6rem;
         text-decoration: none;
         padding: 2rem 2rem;
-
+        @include responsive(480) {
+            padding: 2rem 1.5rem;
+        }
         display: inline-block;
         color: $background;
 

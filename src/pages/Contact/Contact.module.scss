@@ -1,4 +1,5 @@
 @import "../../sass/_variables.scss";
+@import "../../sass/mixins";
 
 .Contact {
     width: 100%;
@@ -6,10 +7,18 @@
     grid-template-columns: repeat(2, 1fr);
     background-color: $foreground;
     color: $foreground-light;
+
+    @include responsive(980) {
+        grid-template-columns: 1fr;
+    }
+
     &__Item {
         padding: 5rem 5rem 0;
         border: 2px solid #eee;
         border-top: none;
+        @include responsive(576) {
+            padding: 5rem 2rem 0;
+        }
     }
 
     &__Info {
@@ -17,6 +26,9 @@
         align-items: center;
         justify-content: space-between;
         padding: 5rem;
+        @include responsive(576) {
+            padding: 5rem 2rem 5rem;
+        }
         border-bottom: 2px solid #eee;
 
         & h3 {
