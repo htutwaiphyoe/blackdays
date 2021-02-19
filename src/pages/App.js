@@ -6,7 +6,7 @@ import Home from "./Home/Home";
 
 const Day = lazy(() => import("./Day/Day"));
 const Month = lazy(() => import("./Month/Month"));
-const History = lazy(() => import("./History/History"));
+// const History = lazy(() => import("./History/History"));
 const Contact = lazy(() => import("./Contact/Contact"));
 
 const App = () => {

@@ -4,7 +4,7 @@ import classes from "./Navigation.module.scss";
 
 const Navigation = (props) => {
     return (
-        <nav className={classes.Navigation}>
+        <nav className={classes.Navigation} id="Nav">
             <ul>
                 <li>
                     <NavLink
@@ -14,7 +14,7 @@ const Navigation = (props) => {
                         exact
                         className={classes.Navigation__NavItem}
                     >
-                        HOME PAGE
+                        HOME
                     </NavLink>
                 </li>
                 <li>

@@ -2,7 +2,7 @@ import classes from "./Intro.module.scss";
 
 const Intro = (props) => {
     const onContinueClick = (e) => {
-        document.getElementById("Main").scrollIntoView();
+        document.getElementById("Nav").scrollIntoView();
     };
     return (
         <header className={classes.Intro}>

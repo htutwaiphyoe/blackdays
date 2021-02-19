@@ -51,6 +51,7 @@
     &__Paragraph {
         font-size: 1.8rem;
         margin-bottom: 4rem;
+        text-align: justify;
     }
     &__Image {
         width: 100%;
@@ -62,6 +63,10 @@
 
     & article {
         border: 1px solid #eee;
+        &:nth-child(1),
+        &:nth-child(2) {
+            border-top: none;
+        }
         padding: 5rem 5rem 4rem;
         @include responsive(576) {
             padding: 5rem 1rem 4rem;

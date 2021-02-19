@@ -7,15 +7,15 @@ const Home = (props) => {
                 <h1 className={classes.Home__Intro__Heading}>
                     About
                     <br />
-                    brief history
+                    history
                 </h1>
-                <p className={classes.Home__Paragraph}>
+                <p className={`${classes.Home__Description}`}>
                     This webiste is about black history from 1st February to Now.
-                    <br />
-                    This'll show you all historic events that happened during that time.
-                    <br />
-                    Vive la révolution
                 </p>
+                <p className={`${classes.Home__Description}`}>
+                    This'll show you all historic events that happened during that time.
+                </p>
+                <p className={`${classes.Home__Description}`}> Vive la révolution</p>
             </div>
             <figure className={classes.Home__Image}>
                 <img
