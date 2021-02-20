@@ -1,9 +1,13 @@
 import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 import Button from "../../components/UI/Button/Button";
 import classes from "./Day.module.scss";
 const Day = (props) => {
     const location = useLocation();
+    useEffect(() => {
+        document.getElementById("Nav").scrollIntoView();
+    }, []);
     return (
         <section className={classes.Day} id="Main">
             <article>

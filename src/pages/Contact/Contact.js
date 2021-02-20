@@ -1,9 +1,14 @@
+import { useEffect } from "react";
+
 import FormElement from "../../components/UI/FormElement/FormElement";
 import Button from "../../components/UI/Button/Button";
 
 import classes from "./Contact.module.scss";
 
 const Contact = (props) => {
+    useEffect(() => {
+        document.getElementById("Nav").scrollIntoView();
+    }, []);
     return (
         <section className={classes.Contact} id="Main">
             <form className={classes.Contact__Item}>

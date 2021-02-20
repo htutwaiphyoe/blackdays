@@ -15,6 +15,7 @@ const Month = (props) => {
         setDays(data);
     };
     useEffect(() => {
+        document.getElementById("Nav").scrollIntoView();
         getDays();
     }, []);
 

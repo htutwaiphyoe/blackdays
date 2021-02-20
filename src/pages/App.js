@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 
 import Layout from "./Layout/Layout";
 import Home from "./Home/Home";

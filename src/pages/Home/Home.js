@@ -1,6 +1,11 @@
+import { useEffect } from "react";
+
 import classes from "./Home.module.scss";
 
 const Home = (props) => {
+    useEffect(() => {
+        document.getElementById("Nav").scrollIntoView();
+    }, []);
     return (
         <section className={classes.Home} id="Main">
             <div className={classes.Home__Intro}>
