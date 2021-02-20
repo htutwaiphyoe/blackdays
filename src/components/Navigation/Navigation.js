@@ -14,7 +14,7 @@ const Navigation = (props) => {
                         exact
                         className={classes.Navigation__NavItem}
                     >
-                        HOME
+                        OVERVIEW
                     </NavLink>
                 </li>
                 <li>

@@ -7,8 +7,8 @@ const Intro = (props) => {
     return (
         <header className={classes.Intro}>
             <h1>
-                burma <br />
-                blackdays
+                spring <br />
+                revolution
             </h1>
             <p>
                 History of Burma (Myanmar) was repeated again at 1st February 2021.
