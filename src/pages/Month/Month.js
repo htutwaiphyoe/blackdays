@@ -16,6 +16,7 @@ const Month = (props) => {
     };
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
+
         getDays();
     }, []);
 
@@ -25,7 +26,7 @@ const Month = (props) => {
     return (
         <section className={classes.Month} id="Main">
             {days.map((day, i) => (
-                <Event day={day} key={i} />
+                <Event event={day} key={i} url="day" btnText="All events" />
             ))}
         </section>
     );
