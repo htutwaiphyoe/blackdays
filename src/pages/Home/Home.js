@@ -24,8 +24,9 @@ const Home = (props) => {
             </div>
             <figure className={classes.Home__Image}>
                 <img
-                    src="https://scontent.xx.fbcdn.net/v/t1.0-9/152455575_843215836533306_762797039450712025_n.jpg?_nc_cat=111&ccb=3&_nc_sid=e3f864&_nc_ohc=WnNSRtao8usAX_76v3P&_nc_ht=scontent.xx&oh=aeef289d53846010006789a4f64c3b0d&oe=605651DE"
+                    src="https://lh3.googleusercontent.com/4Xl9dOZ9kpdG5U3BaNtmAa4Obs_h54nqbFgLf7Diuix84zrxrgqvkIUJuWFkFckSerWst5gJ2KYfE5Mx0CWSzA4J3ISdQjfrdilMBzCsKGxbIOKPxeyPAfMF4nKr3ph1f0QJsQxsGY_jt3detE3ez8rLXt2YsMlS8siYJS3_PUed3JaFKZesGqqIIWXd2Q3uAzF2_RbzWkylcq-sEjHdf-Ve493S8u9b5ZTKtslX2LMNZjTS2PuuR0nh9lmkTGy38cTquEcDHW7mMgS77pmpcyJDhSMPCJQ2Zo99BrDIMrgtX3a1bN3el9OZKJKio713sHxx109ess_uvjux6MSBYXRAg4lGxfyxUG_SDdikjxWPrGHf_DIO969fB5bu9ShRM_pfnZmlkZHdEm27VQLs7ETj0nSVsITPWmuCQ78MTGcOhafb4cQCxIH093CfnzTB6lnG7Xr7nH0-k7JuLWbsaBegM1cmox44W-jyMKzzA77gqoBZr3bWNr8aUfEa87l42mreTH2NnEPxPvnDGIwndwnIHKHvCusgrNsWGWNiaZpvP_8fO5jA4ii0kfcriJSa-Eig3HweMdMxO04FT0gSCjLZclHkS_8kmE_ywHpZmFbnSQCoLQFHkRs7fGGT0Cg5j0mGdOyiuzxA4bKoW_qB4U38hWxAs6heC-g9IkV4GfHVVhg2oqmk1Ql6qg3M=w1225-h695-no?authuser=0"
                     alt="hero"
+                    loading="lazy"
                 />
             </figure>
             <p className={classes.Home__Paragraph}>
