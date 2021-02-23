@@ -15,7 +15,6 @@ const Day = (props) => {
         for (let i in response.data) {
             data.push({ id: i, ...response.data[i] });
         }
-        console.log(data);
         setEvents(data);
     }, [dayId]);
     useEffect(() => {
