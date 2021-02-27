@@ -28,7 +28,7 @@ const Day = (props) => {
     return (
         <section className={classes.Day} id="Main">
             {events.map((event, i) => (
-                <Event event={event} key={i} btnText="Full story" />
+                <Event event={event} key={i} btnText="Full story" label={i + 1} />
             ))}
         </section>
     );

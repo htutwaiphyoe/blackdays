@@ -14,7 +14,7 @@ const Event = (props) => {
     return (
         <article className={classes.Event}>
             <div className={classes.Event__Intro}>
-                <span className={classes.Event__Intro__Label}>{props.event.label}</span>
+                <span className={classes.Event__Intro__Label}>{props.label ? props.label : props.event.label}</span>
                 {props.event.day && (
                     <h1 className={classes.Event__Intro__Heading}>
                         Day {props.event.day}
