@@ -19,10 +19,10 @@ const Month = (props) => {
         // firebase.post("events.json", {
         //     label: "17",
         //     photo:
-        //         "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/154482648_3801543749927458_1759448197505392935_n.jpg?_nc_cat=1&ccb=3&_nc_sid=8bfeb9&_nc_ohc=HjutEJOIWIQAX8OzKJU&_nc_ht=scontent-sin6-1.xx&oh=c310a1999ae0d74f9650b679c2546b55&oe=605E9F0C",
+        //         "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/150112399_121054173356119_951073405035202345_o.jpg?_nc_cat=1&ccb=3&_nc_sid=8bfeb9&_nc_ohc=F7zuw_uIsvgAX9yzgXg&_nc_ht=scontent-sin6-1.xx&oh=fa31dc61e368230a3b966ebf9520c8ca&oe=6060CD7E",
         //     description:
-        //         "မနက်ဖြန်မှာ ပြုလုပ်မယ့် အာဆီယံနိုင်ငံတွေရဲ့ Milk Tea Alliance အတွက် တောင်ကြီးမှာ ဖယောင်းတိုင်ထွန်းဆုတောင်း",
-        //     date: "27",
+        //         "Milk Tea Alliance နေ့မှာ ရဲတပ်ဖွဲ့၏ သတ်ဖြတ်မှုကြောင့် နိုင်ငံတစ်ဝှမ်းအသက်ပေးခဲ့ရသူများစာရင်း",
+        //     date: "28",
         // });
         getDays();
     }, []);
