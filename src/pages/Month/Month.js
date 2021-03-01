@@ -17,11 +17,10 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         // firebase.post("events.json", {
-        //     label: "17",
+        //     label: "18",
         //     photo:
-        //         "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/150112399_121054173356119_951073405035202345_o.jpg?_nc_cat=1&ccb=3&_nc_sid=8bfeb9&_nc_ohc=F7zuw_uIsvgAX9yzgXg&_nc_ht=scontent-sin6-1.xx&oh=fa31dc61e368230a3b966ebf9520c8ca&oe=6060CD7E",
-        //     description:
-        //         "Milk Tea Alliance နေ့မှာ ရဲတပ်ဖွဲ့၏ သတ်ဖြတ်မှုကြောင့် နိုင်ငံတစ်ဝှမ်းအသက်ပေးခဲ့ရသူများစာရင်း",
+        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/154967522_2957627754559927_6349218115892028655_n.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=XKIXBm01lTIAX_oidlI&_nc_ht=scontent.xx&oh=692c216706cfb440c90b7e2b1e96ee20&oe=60649713",
+        //     description: "ဆန္ဒပြသူများကို ပစ်ခတ်ဖြိုခွင်းအပြီး ပျော်ရွှင်နေကြသော ရဲများ",
         //     date: "28",
         // });
         getDays();
