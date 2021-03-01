@@ -17,11 +17,12 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         // firebase.post("events.json", {
-        //     label: "18",
+        //     label: "24",
         //     photo:
-        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/154967522_2957627754559927_6349218115892028655_n.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=XKIXBm01lTIAX_oidlI&_nc_ht=scontent.xx&oh=692c216706cfb440c90b7e2b1e96ee20&oe=60649713",
-        //     description: "ဆန္ဒပြသူများကို ပစ်ခတ်ဖြိုခွင်းအပြီး ပျော်ရွှင်နေကြသော ရဲများ",
-        //     date: "28",
+        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/154783615_969912593413990_330423587558787854_o.jpg?_nc_cat=103&ccb=3&_nc_sid=8bfeb9&_nc_ohc=t0cSg-LcOHMAX8qI384&_nc_ht=scontent.xx&oh=0ab7c8c693ba521dd853403ee54186a5&oe=606579F6",
+        //     description:
+        //         "မန်းလေး ၅၈၊၁၀၇လမ်းမှာ ကားနဲ့တိုက်ပြီး ထွက်ပြေး ၅၆လမ်းမှာမိပါတယ် ကားက လိုင်စင်နံပါတ်ပြားမပါပါဘူး လူသုံးယောက်ထိသွားပါတယ် လူကြီးတစ်ယောက်နဲ့ ကလေးနှစ်ယောက်  ကလေးတစ်ယောက်ကသေ",
+        //     date: "30",
         // });
         getDays();
     }, []);
