@@ -17,11 +17,10 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         // firebase.post("events.json", {
-        //     label: "19",
+        //     label: "21",
         //     photo:
-        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/156015816_2817699181815570_6404445998557969482_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=iXGmj0_cxSEAX8kbR8s&_nc_ht=scontent.xx&oh=c3aa51e1a3795fbda184fd84470e5e83&oe=60657349",
-        //     description:
-        //         "ရန်ကုန် မြောက်ဥက္ကလာတွင် ဆေးတပ်ဖွဲ့ဝင်များကို ဖမ်းဆီး နှိပ်စက်အနိုင်ကျင့်",
+        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/156210410_1174073503022278_1481213591621999698_n.jpg?_nc_cat=111&ccb=3&_nc_sid=8bfeb9&_nc_ohc=Dx0o_mnCjuAAX_D0Q8C&_nc_ht=scontent.xx&oh=999e950d338a2683e5f4869d779fd3c7&oe=6065B94E",
+        //     description: "မင်းသမီး Amanda Seyfried ရဲ့ အမျိုးသား မြန်မာ့အရေးပြောပြီ ",
         //     date: "31",
         // });
         getDays();
