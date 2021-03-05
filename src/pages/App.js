@@ -20,8 +20,8 @@ const App = () => {
                     <Suspense fallback={null}>
                         <Route path="/" exact component={Home} />
                         <Route path="/history" exact component={Month} />
-                        <Route path="/history/days/:dayId" exact component={Day} />
-                        <Route path="/history/days/:dayId/:eventId" exact component={Home} />
+                        <Route path="/history/day/:dayId" exact component={Day} />
+                        <Route path="/history/day/:dayId/:eventId" exact component={Home} />
                         <Route path="/contact" exact component={Contact} />
                     </Suspense>
                 </Switch>

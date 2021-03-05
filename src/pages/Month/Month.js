@@ -16,12 +16,14 @@ const Month = (props) => {
     };
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
-        // firebase.post("events.json", {
-        //     label: "21",
+        // firebase.post("days.json", {
+        //     label: "March 5, 2021",
+        //     day: "Thirty Three",
+        //     hashtag: "Mar5Coup",
         //     photo:
-        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/156210410_1174073503022278_1481213591621999698_n.jpg?_nc_cat=111&ccb=3&_nc_sid=8bfeb9&_nc_ohc=Dx0o_mnCjuAAX_D0Q8C&_nc_ht=scontent.xx&oh=999e950d338a2683e5f4869d779fd3c7&oe=6065B94E",
-        //     description: "မင်းသမီး Amanda Seyfried ရဲ့ အမျိုးသား မြန်မာ့အရေးပြောပြီ ",
-        //     date: "31",
+        //         "https://lh3.googleusercontent.com/jXsIu57tg70wUUib8pDlmUfufLmW4HX4cfLANoxjMPuaXF9d3e_2BTZ8PjkMHlp-DNhCk1QAVQKdSeY1Blx5dNA=w1280",
+        //     description: "ဖယ်ဒရယ်အိမ်မက်နှင့်အတူ အရှိန်ပါနေဆဲအာဏာရှင်ဆန့်ကျင်ရေး",
+        //     location: "33",
         // });
         getDays();
     }, []);
@@ -32,7 +34,7 @@ const Month = (props) => {
     return (
         <section className={classes.Month} id="Main">
             {days.map((day, i) => (
-                <Event event={day} key={i} url="days" btnText="All events" />
+                <Event event={day} key={i} url="day" btnText="All events" />
             ))}
         </section>
     );
