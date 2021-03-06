@@ -17,13 +17,13 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         // firebase.post("days.json", {
-        //     label: "March 5, 2021",
-        //     day: "Thirty Three",
-        //     hashtag: "Mar5Coup",
+        //     label: "March 6, 2021",
+        //     day: "Thirty Four",
+        //     hashtag: "Mar6Coup",
         //     photo:
-        //         "https://lh3.googleusercontent.com/jXsIu57tg70wUUib8pDlmUfufLmW4HX4cfLANoxjMPuaXF9d3e_2BTZ8PjkMHlp-DNhCk1QAVQKdSeY1Blx5dNA=w1280",
-        //     description: "ဖယ်ဒရယ်အိမ်မက်နှင့်အတူ အရှိန်ပါနေဆဲအာဏာရှင်ဆန့်ကျင်ရေး",
-        //     location: "33",
+        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/156608397_2411587042320439_294678282210110365_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=zsOeER5XyrsAX8V-nwt&_nc_ht=scontent.xx&oh=e00faed7a63b2f2ba4341f56b5b27e3e&oe=606B6EA9",
+        //     description: "ဖိနှိပ်မှုတွေကြားက ဆက်လက်တိုက်ပွဲဝင်ဆန့်ကျင်နေဆဲ နွေဦးတော်လှန်ရေး",
+        //     location: "34",
         // });
         getDays();
     }, []);
