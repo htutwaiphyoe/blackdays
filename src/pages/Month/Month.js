@@ -17,13 +17,14 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         // firebase.post("days.json", {
-        //     label: "March 7, 2021",
-        //     day: "Thirty Five",
-        //     hashtag: "Mar7Coup",
+        //     label: "March 9, 2021",
+        //     day: "Thirty Seven",
+        //     hashtag: "Mar9Coup",
         //     photo:
-        //         "https://lh4.googleusercontent.com/DL4sYzkC20pMdPbQri3Fo_f1S8zCpfaAbN9Ud4ByIpG-szq3TWmDwUVEZi-vNwkW9H7m4Fz5pUooTe8FZqv_qiuaohl67qrOVnwEylteSgHBobzavXSg9ORn9BfJYFX26A=w1280",
-        //     description: "အာဏာရှင်ဆန့်ကျင်ရေး 5ပတ်မြောက်နေ့",
-        //     location: "35",
+        //         "https://lh5.googleusercontent.com/6PwceawtQVq81Spe2rERXE2L0kMI5luCikfrEGaxgqM3Vh8SoSqxanJMzluuEBRNNfQwUT3Xf3V3Ivn2cPQrEIk=w1280",
+        //     description:
+        //         "ဒုသမ္မတခန့်အပ်မှုနှင့်အတူ ခြေလှမ်းသွက်လာသော CRPH နှင့် အရှိန်တက်နေဆဲ အာဏာရှင်ဆန့်ကျင်ရေး",
+        //     location: "37",
         // });
         getDays();
     }, []);
