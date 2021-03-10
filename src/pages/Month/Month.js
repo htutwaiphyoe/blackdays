@@ -16,15 +16,13 @@ const Month = (props) => {
     };
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
-        // firebase.post("days.json", {
-        //     label: "March 9, 2021",
-        //     day: "Thirty Seven",
-        //     hashtag: "Mar9Coup",
+        // firebase.post("events.json", {
+        //     label: "22",
         //     photo:
-        //         "https://lh5.googleusercontent.com/6PwceawtQVq81Spe2rERXE2L0kMI5luCikfrEGaxgqM3Vh8SoSqxanJMzluuEBRNNfQwUT3Xf3V3Ivn2cPQrEIk=w1280",
+        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/158730210_203938471522037_7349191497684162101_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=730e14&_nc_ohc=EAwiZ0QxyoYAX8rFCxy&_nc_ht=scontent.xx&oh=3a164c3dccc1187b39c32813a6d19aaf&oe=60706C3C",
         //     description:
-        //         "ဒုသမ္မတခန့်အပ်မှုနှင့်အတူ ခြေလှမ်းသွက်လာသော CRPH နှင့် အရှိန်တက်နေဆဲ အာဏာရှင်ဆန့်ကျင်ရေး",
-        //     location: "37",
+        //         "မြန်မာပြည်သားဆို အမြဲ အပိုတောင်လေ့ရှိတဲ့ ထိုင်းနိုင်ငံက Taxi.ကားဆရာများက UN.ရုံးရှေ့ဆန္ဒလာပြသူတွေကို ပိုက်ဆံမယူပဲ လိုက်ပို့ပေး",
+        //     date: "38",
         // });
         getDays();
     }, []);
