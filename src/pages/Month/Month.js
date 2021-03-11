@@ -16,14 +16,14 @@ const Month = (props) => {
     };
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
-        // firebase.post("events.json", {
-        //     label: "22",
-        //     photo:
-        //         "https://scontent.xx.fbcdn.net/v/t1.0-9/158730210_203938471522037_7349191497684162101_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=730e14&_nc_ohc=EAwiZ0QxyoYAX8rFCxy&_nc_ht=scontent.xx&oh=3a164c3dccc1187b39c32813a6d19aaf&oe=60706C3C",
-        //     description:
-        //         "မြန်မာပြည်သားဆို အမြဲ အပိုတောင်လေ့ရှိတဲ့ ထိုင်းနိုင်ငံက Taxi.ကားဆရာများက UN.ရုံးရှေ့ဆန္ဒလာပြသူတွေကို ပိုက်ဆံမယူပဲ လိုက်ပို့ပေး",
-        //     date: "38",
-        // });
+        firebase.post("events.json", {
+            label: "24",
+            photo:
+                "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/158349590_897015257782618_3989718265167184121_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=RxtzRVWINc4AX8_sP62&_nc_ht=scontent-mia3-1.xx&oh=e226bdf6b17c4ce7b23510f5006b74ff&oe=60724063",
+            description:
+                "သေဆုံးနဲ့ ကျဆုံးခဲ့မှု ရန်ကုန် မြောက်ဒဂုံတွင် ၁ ဦး၊ ပခုက္ကူ မြိုင်မြို့တွင် အနည်းဆုံး ၈ ဦး၊ မန္တလေး၊ ပဲခူးနှင့် တောင်ငူ၊ ထားဝယ် တို့တွင် ၁ ဦးစီ၊ စုစုပေါင်း ၁၃ ဦး ရှိခဲ့ပါတယ်။ ဒဏ်ရာရရှိသူ အနည်းဆုံး ၁၀ ဦးထက် မနည်းရှိခဲ့",
+            date: "39",
+        });
         getDays();
     }, []);
 
