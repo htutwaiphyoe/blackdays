@@ -17,13 +17,13 @@ const Month = (props) => {
     useEffect(() => {
         document.getElementById("Nav").scrollIntoView();
         firebase.post("events.json", {
-            label: "24",
+            label: "11",
             photo:
-                "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/158349590_897015257782618_3989718265167184121_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=RxtzRVWINc4AX8_sP62&_nc_ht=scontent-mia3-1.xx&oh=e226bdf6b17c4ce7b23510f5006b74ff&oe=60724063",
+                "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/159814484_10160907502958128_3047089533984058890_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=u98-56E97RAAX9mLe7v&_nc_ht=scontent-mia3-1.xx&oh=7b565cfb745ef43bb8e5ea2a1769c1ba&oe=60709F1A",
             description:
-                "သေဆုံးနဲ့ ကျဆုံးခဲ့မှု ရန်ကုန် မြောက်ဒဂုံတွင် ၁ ဦး၊ ပခုက္ကူ မြိုင်မြို့တွင် အနည်းဆုံး ၈ ဦး၊ မန္တလေး၊ ပဲခူးနှင့် တောင်ငူ၊ ထားဝယ် တို့တွင် ၁ ဦးစီ၊ စုစုပေါင်း ၁၃ ဦး ရှိခဲ့ပါတယ်။ ဒဏ်ရာရရှိသူ အနည်းဆုံး ၁၀ ဦးထက် မနည်းရှိခဲ့",
-            date: "39",
-        });
+                "မန္တ​လေးမြို့ ၃၆ လမ်း ၃၈ လမ်းကြား ၈၆ လမ်း ၈၇ ကြား လမ်း ရှမ်းဝိုင်းရပ်ကွက်ကို စစ်တပ်နဲ့ ရဲ တပ်ဖွဲ့၀င်​တွေ​ ရောက်လာပြီး ​နေအိမ်တွေကို ​သေနတ်​တွေပစ်​ဖောက်၊ ​လေးဂွ​တွေ ရာဘာကျည်​တွေနဲ့ ပစ်ပြီး ဖျက်စီး",
+            date: "40",
+        } );
         getDays();
     }, []);
 
